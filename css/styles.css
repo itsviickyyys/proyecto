@@ -1,0 +1,86 @@
+/* Sombreado en cajita al pasar el cursor */
+.hover-box {
+    padding: 10px 15px; /* Espaciado dentro de la cajita */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  }
+
+  .hover-box:hover {
+    background-color: #FEACB9;
+     /* Fondo al pasar el cursor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+  }
+  /* Estilo personalizado para el botón */
+  .custom-btn {
+     background-color: #FEACB9;
+    ;
+    color: #333;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Sombra al pasar el cursor sobre el botón */
+  .custom-btn:hover {
+    background-color: #FEACB9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000;
+  }
+
+  /* Responsividad */
+  @media (max-width: 576px) {
+    .card {
+      width: 90%; /* Ancho de la tarjeta en dispositivos pequeños */
+    }}
+      /* Sombra para el nav */
+  .shadow-nav {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .centered-container {
+    height: 10px;
+  }
+  .custom-text {
+    font-size: 1.2rem;
+  }
+
+  /* Sombra y centrado para el div */
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Mitad de la pantalla vertical */
+    text-align: center;
+    background-color: #FDDDE2; /* Fondo claro opcional */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 90%; /* Ancho ajustable */
+    max-width: 4000px; /* Máximo ancho */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+  }
+
+  /* Estilo de fuente */
+  .custom-text {
+    font-family: inherit; /* Usa la fuente predeterminada de la página */
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+  }
+  .shadow-footer {
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  footer ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 576px) {
+    footer .row div {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
